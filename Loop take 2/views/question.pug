@@ -1,0 +1,9 @@
+html
+	head
+		title= title
+		style
+			include style.css
+	body
+		p= question
+		form(action='/question' method='POST')
+			button.button Next

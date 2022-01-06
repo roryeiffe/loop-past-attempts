@@ -1,0 +1,17 @@
+doctype html
+head
+  link(rel='stylesheet', href='style.css')
+  title Category
+  style
+    include style.css
+#page
+  p= name
+  form#category(action='/pickCat', method='post')
+    select#category.selectpicker(data-style='btn-info', name='selectpicker')
+      option(name='0', value='0')= option0
+      option(name='1', value='1')= option1
+      option(name='2', value='2')= option2
+      option(name='3', value='3')= option3
+      option(name='4', value='4')= option4
+      option(name='5', value='5')= option5
+    button.button Vote

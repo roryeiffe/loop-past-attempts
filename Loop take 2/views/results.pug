@@ -1,0 +1,10 @@
+doctype html
+head
+  link(rel='stylesheet', href='style.css')
+  title Results
+  style
+    include style.css
+#page
+  p= output
+  form#category(action='/transition', method='post')
+    button.button Next Round

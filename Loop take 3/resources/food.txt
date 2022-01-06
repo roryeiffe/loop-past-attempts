@@ -1,0 +1,67 @@
+Pizza
+Buffalo Chicken Wings
+Celery
+Cheeseburgers
+Pancakes
+Cake
+Bread
+Cereal
+Oatmeal
+Sausage
+Ice Cream
+Pasta
+Tomato Sauce
+Rice
+Pie
+Banana
+Apple
+Chicken
+Bagel
+Muffins
+Candy
+Cheesecake
+Cheese
+Potato Chips
+Doritos
+Tacos
+Burritos
+Salsa
+Broccoli
+Kiwi
+Tomato
+Steak
+Salad
+Ribs
+Hot Dogs
+Bacon
+Potatoes
+Stuffing
+Brownies
+Cookies
+Subs
+Donuts
+Turkey
+Cranberry
+Mac and Cheese
+Ham
+Soup
+Sushi
+Popcorn
+Shrimp
+Ravioli
+Pudding
+Lasaga
+Meatballs
+Nachos
+Onion Rings
+Tater Tots
+French Toast
+Crepes
+Baked Potato
+Apple Sauce
+Chicken Nuggets
+Orange
+Peaches
+Mango
+Corn
+Calzone

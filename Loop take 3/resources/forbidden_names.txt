@@ -1,0 +1,10 @@
+players_questions
+forbidden_names
+food
+food_questions
+animals
+animals_questions
+locations
+locations_questions
+items
+items_questions

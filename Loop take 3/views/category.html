@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>Category</title>
+  </head>
+
+  <body>
+  	<div id = "page">
+      <p>Select your category: </p>
+  		<form id = "category" action = '/pickCat' method = 'post'>
+  			<select class = "selectpicker" data-style="btn-info" id="category" name = "selectpicker">
+          <option name = "food" value="food">Food!</option>
+          <option name = "players" value="players">Players</option>
+          <option name = "animals" value="animals">Animals</option>
+        </select>
+        <button class="button">Play</button>
+  		</form>
+  	</div>
+  </body>

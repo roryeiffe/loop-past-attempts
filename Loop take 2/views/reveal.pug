@@ -1,0 +1,29 @@
+doctype html
+head
+  title= Reveal
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css')
+  link(rel='stylesheet' href='style.css')
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js')
+  script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js')
+  style
+    include style.css
+body
+  p.reveal= name
+  // Trigger the modal with a button
+  button.button(type='button' data-toggle='modal' data-target='#myModal') See Answer
+  // Modal
+  #myModal.modal.fade(role='dialog')
+    .modal-dialog
+      // Modal content
+      .modal-content
+        .modal-header
+          button.close(type='button' data-dismiss='modal') &times;
+          h4.modal-title Answer:
+        .modal-body
+          p.reveal= answer
+        .modal-footer
+          button.btn.btn-default(type='button' data-dismiss='modal') Close
+  form(action='/reveal' method='POST')
+    button.button Next
